@@ -1,0 +1,373 @@
+[
+  {
+    "severity": "ERROR",
+    "source": "eco_base.py",
+    "check": "DB bounds",
+    "message": "Lobeira-Solanum.drag = 0.0 is outside (0.0, 1.0]",
+    "detail": ""
+  },
+  {
+    "severity": "ERROR",
+    "source": "eco_base.py",
+    "check": "DB weight rank",
+    "message": "Anta.weight (0.06) ≤ Lobo-guara.weight (0.08) — inverted vs real biology",
+    "detail": "Tapir ≈200 kg vs Maned Wolf ≈23 kg. [Medici 2012 / Paula 2008]"
+  },
+  {
+    "severity": "ERROR",
+    "source": "eco_base.py",
+    "check": "DB weight rank",
+    "message": "Anta.weight (0.06) ≤ Lobo-guara-Chrysocyon.weight (0.07) — inverted vs real biology",
+    "detail": "Tapir ≈200 kg vs Maned Wolf ≈23 kg. [Medici 2012 / Paula 2008]"
+  },
+  {
+    "severity": "ERROR",
+    "source": "eco_base.py",
+    "check": "DB weight rank",
+    "message": "Anta.weight (0.06) ≤ Tamandua-bandeira.weight (0.12) — inverted vs real biology",
+    "detail": "Tapir ≈200 kg vs Giant Anteater ≈35 kg. [IUCN 2014]"
+  },
+  {
+    "severity": "ERROR",
+    "source": "eco_base.py",
+    "check": "DB weight rank",
+    "message": "Anta.weight (0.06) ≤ Seriema.weight (0.08) — inverted vs real biology",
+    "detail": "Tapir ≈200 kg vs Red-legged Seriema ≈1.5 kg. [Sick 1997]"
+  },
+  {
+    "severity": "ERROR",
+    "source": "eco_base.py",
+    "check": "DB weight rank",
+    "message": "Anta.weight (0.06) ≤ Macaco-prego-Sapajus.weight (0.12) — inverted vs real biology",
+    "detail": "Tapir ≈200 kg vs Capuchin monkey ≈3-4 kg. [de Waal 2001]"
+  },
+  {
+    "severity": "ERROR",
+    "source": "eco_base.py :: BaseConfig",
+    "check": "Fire seasonality",
+    "message": "fire_start_frame=80 maps to Feb (1.7 months) — Cerrado fires peak Aug–Sep (late dry season)",
+    "detail": "Pivello (2011): natural/anthropogenic fires in Cerrado peak Aug-Sep. Suggested frames: 280–420 (Jul–Sep)."
+  },
+  {
+    "severity": "WARN",
+    "source": "eco_base.py",
+    "check": "DB lifespan rank",
+    "message": "Arara-caninde.lifespan_base (500) ≤ Gado-Nelore.lifespan_base (800) — real Arara-caninde lives longer than Gado-Nelore",
+    "detail": "Hyacinth Macaw 50–60 yrs vs Nelore cattle 15–20 yrs. [Sick 1997 / ABCZ 2021]"
+  },
+  {
+    "severity": "WARN",
+    "source": "eco_base.py",
+    "check": "DB lifespan rank",
+    "message": "Urubu-rei.lifespan_base (400) ≤ Gado-Nelore.lifespan_base (800) — real Urubu-rei lives longer than Gado-Nelore",
+    "detail": "King Vulture 30–40 yrs vs Nelore cattle 15–20 yrs. [BirdLife 2023]"
+  },
+  {
+    "severity": "WARN",
+    "source": "eco_base.py :: BaseConfig",
+    "check": "Migration seasonality",
+    "message": "migration_start_frame=40 maps to Jan (0.9 months) — migrants arrive Sep–Oct or depart Mar–Apr",
+    "detail": "Alves et al. (2004): Cerrado migratory birds arrive at wet season onset (Sep-Oct) and depart at wet season end (Mar-Apr)."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_55.py vs notebook_73.py",
+    "check": "Cross-notebook consistency",
+    "message": "SOIL_MOISTURE_CURVE disagrees across notebooks (max monthly Δ = 0.2000)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_62.py vs notebook_69.py",
+    "check": "Cross-notebook consistency",
+    "message": "ANTEATER_ACTIVITY_CURVE disagrees across notebooks (max monthly Δ = 0.5500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_64.py vs notebook_72.py",
+    "check": "Cross-notebook consistency",
+    "message": "RAINFALL_CURVE disagrees across notebooks (max monthly Δ = 0.2500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_64.py vs notebook_74.py",
+    "check": "Cross-notebook consistency",
+    "message": "RAINFALL_CURVE disagrees across notebooks (max monthly Δ = 0.2500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_64.py vs notebook_75.py",
+    "check": "Cross-notebook consistency",
+    "message": "RAINFALL_CURVE disagrees across notebooks (max monthly Δ = 0.2500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_64.py vs notebook_76.py",
+    "check": "Cross-notebook consistency",
+    "message": "RAINFALL_CURVE disagrees across notebooks (max monthly Δ = 0.2500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_64.py vs notebook_78.py",
+    "check": "Cross-notebook consistency",
+    "message": "RAINFALL_CURVE disagrees across notebooks (max monthly Δ = 0.2500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_64.py vs notebook_79.py",
+    "check": "Cross-notebook consistency",
+    "message": "RAINFALL_CURVE disagrees across notebooks (max monthly Δ = 0.2500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_64.py vs notebook_80.py",
+    "check": "Cross-notebook consistency",
+    "message": "RAINFALL_CURVE disagrees across notebooks (max monthly Δ = 0.2500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_65.py vs notebook_71.py",
+    "check": "Cross-notebook consistency",
+    "message": "FIRE_RISK_CURVE disagrees across notebooks (max monthly Δ = 0.1000)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_68.py vs notebook_77.py",
+    "check": "Cross-notebook consistency",
+    "message": "BAT_MIGRATION_CURVE disagrees across notebooks (max monthly Δ = 0.3500)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_69.py vs notebook_74.py",
+    "check": "Cross-notebook consistency",
+    "message": "TERMITE_SWARM_CURVE disagrees across notebooks (max monthly Δ = 0.1000)",
+    "detail": "Shared ecological backbone curves should be identical across the series."
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_78.py",
+    "check": "Curve correlation",
+    "message": "SWARM_FRUIT_PULSE ↔ RAINFALL_CURVE: Pearson r = 0.40 (expected ≥ 0.50, positive)",
+    "detail": "Termite swarming / fungal fruiting pulse is triggered by first rains (Oct–Nov)"
+  },
+  {
+    "severity": "WARN",
+    "source": "notebook_80.py",
+    "check": "Curve correlation",
+    "message": "NUPTIAL_FLIGHT ↔ RAINFALL_CURVE: Pearson r = 0.12 (expected ≥ 0.50, positive)",
+    "detail": "Ant nuptial flights triggered by first rains (Sep–Oct)"
+  },
+  {
+    "severity": "INFO",
+    "source": "eco_base.py :: BaseConfig",
+    "check": "Energy system",
+    "message": "mating_energy_threshold (85.0) > initial_energy (80.0): animals must feed before first mating — ecologically plausible but reduces early-generation reproduction",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_62.py",
+    "check": "Curve smoothness",
+    "message": "TERMITE_ACTIVITY_CURVE: |Δ| = 0.55 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_63.py",
+    "check": "Curve smoothness",
+    "message": "EFN_PRODUCTION_CURVE: |Δ| = 0.60 between Aug → Sep — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_63.py",
+    "check": "Curve smoothness",
+    "message": "ANT_PATROL_CURVE: |Δ| = 0.55 between Aug → Sep — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_65.py",
+    "check": "Curve smoothness",
+    "message": "BIOMASS_FUEL_CURVE: |Δ| = 0.60 between Aug → Sep — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_65.py",
+    "check": "Curve smoothness",
+    "message": "FIRE_RISK_CURVE: |Δ| = 0.60 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_65.py",
+    "check": "Curve smoothness",
+    "message": "VELLOZIA_BLOOM_CURVE: |Δ| = 0.80 between Aug → Sep — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_69.py",
+    "check": "Curve smoothness",
+    "message": "TERMITE_SWARM_CURVE: |Δ| = 0.60 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_69.py",
+    "check": "Curve smoothness",
+    "message": "TERMITE_SWARM_CURVE: |Δ| = 0.60 between Nov → Dec — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_70.py",
+    "check": "Curve smoothness",
+    "message": "GERMINATION_SUCCESS: |Δ| = 0.60 between Oct → Nov — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_72.py",
+    "check": "Curve smoothness",
+    "message": "IPE_BLOOM_CURVE: |Δ| = 0.60 between Jun → Jul — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_72.py",
+    "check": "Curve smoothness",
+    "message": "IPE_BLOOM_CURVE: |Δ| = 0.60 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_72.py",
+    "check": "Curve smoothness",
+    "message": "IPE_LEAF_CURVE: |Δ| = 0.60 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_72.py",
+    "check": "Curve smoothness",
+    "message": "MAMANGAVA_INFLUX_CURVE: |Δ| = 0.60 between Jun → Jul — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_72.py",
+    "check": "Curve smoothness",
+    "message": "MAMANGAVA_INFLUX_CURVE: |Δ| = 0.55 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "ANDORINHA_PRESENCE: |Δ| = 0.55 between Feb → Mar — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "ANDORINHA_PRESENCE: |Δ| = 0.60 between May → Jun — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "ANDORINHA_PRESENCE: |Δ| = 0.55 between Aug → Sep — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "NORTH_PASSAGE_CURVE: |Δ| = 0.55 between Feb → Mar — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "NORTH_PASSAGE_CURVE: |Δ| = 0.55 between May → Jun — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "SOUTH_PASSAGE_CURVE: |Δ| = 0.60 between Oct → Nov — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "TERMITE_SWARM_CURVE: |Δ| = 0.65 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_74.py",
+    "check": "Curve smoothness",
+    "message": "TERMITE_SWARM_CURVE: |Δ| = 0.65 between Nov → Dec — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_77.py",
+    "check": "Curve smoothness",
+    "message": "MANDACARU_BLOOM_CURVE: |Δ| = 0.70 between Nov → Dec — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_77.py",
+    "check": "Curve smoothness",
+    "message": "POLLINATION_CURVE: |Δ| = 0.55 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_77.py",
+    "check": "Curve smoothness",
+    "message": "POLLINATION_CURVE: |Δ| = 0.70 between Nov → Dec — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_77.py",
+    "check": "Curve smoothness",
+    "message": "NECTAR_ENERGY_CURVE: |Δ| = 0.60 between Nov → Dec — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_78.py",
+    "check": "Curve smoothness",
+    "message": "SWARM_FRUIT_PULSE: |Δ| = 0.70 between Sep → Oct — abrupt transition",
+    "detail": ""
+  },
+  {
+    "severity": "INFO",
+    "source": "notebook_78.py",
+    "check": "Curve smoothness",
+    "message": "SWARM_FRUIT_PULSE: |Δ| = 0.80 between Nov → Dec — abrupt transition",
+    "detail": ""
+  }
+]
