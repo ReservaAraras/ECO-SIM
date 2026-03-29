@@ -526,15 +526,15 @@ class SauvaRenderer:
         )
         svg.append(
             f'<text font-weight="bold" x="12" y="70" fill="#ccc" font-size="15">'
-            f'colonies retreat DEEPER in dry season (Apr-Sep) to protect it.</text>'
+            f'Colonies dig lower in dry months (Apr-Sep) to save it.</text>'
         )
         svg.append(
             f'<text font-weight="bold" x="12" y="84" fill="#ccc" font-size="15">'
-            f'Wet season: maximum foraging, rapid fungus growth, CO2 cycling.</text>'
+            f'Rainy months: peak cutting, fast fungal growth, CO2 flow.</text>'
         )
         svg.append(
             f'<text font-weight="bold" x="12" y="98" fill="#ff7043" font-size="15">'
-            f'Nuptial flights (revoada alada) triggered by first rains (Sep-Oct):</text>'
+            f'Mating flights (revoada alada) sparked by early rains (Sep-Oct):</text>'
         )
         svg.append(
             f'<text font-weight="bold" x="12" y="112" fill="#ff7043" font-size="15">'
