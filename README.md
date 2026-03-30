@@ -259,3 +259,19 @@ Management instrument: PIGT RESEX Recanto das Araras 2024
 - Christianini, A.V. & Oliveira, P.S. (2010). Birds and ants provide complementary seed dispersal in cerrado. *Biotropica*.
 - Sick, H. (1997). *Ornitologia Brasileira*. Nova Fronteira, Rio de Janeiro.
 - Emmons, L.H. (1997). *Neotropical Rainforest Mammals*. University of Chicago Press.
+
+---
+
+## Conference Presentation
+
+This simulator is being presented at the **International Conference on Geoinformatics and Data Analysis (ICGDA 2026)**:
+
+| Field | Detail |
+|-------|--------|
+| **Abstract ID** | AE2020-A |
+| **Title** | Integrated Environmental Monitoring and Geoanalysis System of the Araras Reserve |
+| **Author** | Hélio Craveiro Pessoa Júnior |
+| **Event** | ICGDA 2026 (hybrid — online and in-person) |
+| **Conference website** | <http://www.icgda.org/> |
+
+The abstract was accepted for presentation by the conference review committee. ECO-SIM's computational approach — PyTorch-powered species-interaction modules, animated SVG phenological dashboards, and automated scientific auditing — is presented as a case study in integrated environmental monitoring and geoanalysis applied to the Recanto das Araras Extractive Reserve in the Brazilian Cerrado.
